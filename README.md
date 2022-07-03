@@ -44,6 +44,7 @@ The R code file.
           (100,50,50), then in each fold the ratio of the numbers of instances in the three classes should be roughly 2 : 1 : 1.
         d. Cannot use functions such as RepeatedKFold, createFolds, etc. need to write own function.
         e. Use this function to produce the training indexes for 10-fold cross-validation on the Ger- manCredit data.
+##### v. Analysis.pdf - refer to this file for the interpetation and in-depth comments on the above classifiers.
 
 
 
