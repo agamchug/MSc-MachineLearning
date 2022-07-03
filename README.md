@@ -1,6 +1,6 @@
 # MSc-MachineLearning
 
-#### 1. Shiny App
+### 1. Shiny App
 The project goal was to construct an R-Shiny app to interactively explain the decision tree and random forest classifiers and the difference between tge two to an audience new to machine learning. Along with the working of the algorithm, the app covers parameter tuning and cross-validation concepts such as pruning and forest size. To contextualise the app, the famous Framingham Heart study dataset was used to predict if a person is at risk of deceloping Coronoary Heart Disease (CHD) in ten years.
 
 ##### i. Tree_shiny.pdf:
@@ -10,7 +10,7 @@ The Frmaingham heart study dataset.
 ##### iii. Tree_shiny.r:
 The R code file.
 
-#### 2. Classifiers&CV:
+### 2. Classifiers&CV:
 ##### i. Trees-Forests.R using GermanCredit.csv data. 
       a. Split the data to a training set (70%) and a test set (30%)
       b. Fit a decision tree to the training data with an optimal tree size determined by 5-fold cross-validation. 
