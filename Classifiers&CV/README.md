@@ -1,25 +1,23 @@
 ## Classifiers&CV:
 
 #### i. Trees-Forests.R using GermanCredit.csv data:
-
-  a. Split the data to a training set (70%) and a test set (30%).
-  b. Fit a decision tree to the training data with an optimal tree size determined by 5-fold cross-validation. 
-  c. Create a plot of the pruned tree and interpret the results. 
-  d. Compute the test error rate of the pruned tree.
-  e. Fit a random forest to the training data with the parameter of the number of features to create the splits tuned by 5-fold cross-validation. 
-  f. Set the number of trees to 1000. 
-  g. Compute the test error rate and comment on the results. 
-  h .Create a plot showing variable importance for the model with the tuned parameter and comment on the plot.
-  i. Draw one plot with two ROC curves for the test predictions in (a) and (e). Comment on the plot.
+    a. Split the data to a training set (70%) and a test set (30%).
+    b. Fit a decision tree to the training data with an optimal tree size determined by 5-fold cross-validation. 
+    c. Create a plot of the pruned tree and interpret the results. 
+    d. Compute the test error rate of the pruned tree.
+    e. Fit a random forest to the training data with the parameter of the number of features to create the splits tuned by 5-fold cross-validation. 
+    f. Set the number of trees to 1000. 
+    g. Compute the test error rate and comment on the results. 
+    h. Create a plot showing variable importance for the model with the tuned parameter and comment on the plot.
+    i. Draw one plot with two ROC curves for the test predictions in (a) and (e). Comment on the plot.
   
 #### ii. SVM.R using self-simulated dataset:
-
-   a. Simulate a three-class dataset with 50 observations in each class and two features. Make sure that this dataset is not linearly separable.
-   b. Make a scatter plot to show your dataset. 
-   c. Split the dataset to a training set (50%) and a test set (50%). 
-   d. Train the support vector machine with a linear kernel, a polynomial kernel and an RBF kernel on the training data. 
-      The parameters associated with each model should be tuned by 5-fold cross-validation. 
-   e. Test the models on the test data and discuss the results.
+    a. Simulate a three-class dataset with 50 observations in each class and two features. Make sure that this dataset is not linearly separable.
+    b. Make a scatter plot to show your dataset. 
+    c. Split the dataset to a training set (50%) and a test set (50%). 
+    d. Train the support vector machine with a linear kernel, a polynomial kernel and an RBF kernel on the training data.
+       The parameters associated with each model should be tuned by 5-fold cross-validation. 
+    e. Test the models on the test data and discuss the results.
    
 #### iii. kNN-LDA.R using thyroid.txt data:
 
