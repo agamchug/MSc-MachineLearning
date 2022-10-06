@@ -2,7 +2,7 @@
 
 #### i. Trees-Forests.R using GermanCredit.csv data.
 
-  a. Split the data to a training set (70%) and a test set (30%)
+  a. Split the data to a training set (70%) and a test set (30%).
   b. Fit a decision tree to the training data with an optimal tree size determined by 5-fold cross-validation. 
   c. Create a plot of the pruned tree and interpret the results. 
   d. Compute the test error rate of the pruned tree.
